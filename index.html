@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Function</title>
+
+    <!-- Bootstrip Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="text-center">One Bank</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="display-statistics">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="statistics-card deposit-card bg-success bg-gradient text-white rounded mb-3">
+                            <h6 class="fw-light text-uppercase">Deposit</h6>
+                            <h1 class="fw-bold"><span class="fw-light">TK</span> <span id="desplay-deposit">00</span> </h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="statistics-card withdrow-card bg-danger bg-gradient text-white rounded mb-3">
+                            <h6 class="fw-light text-uppercase">Withdrow</h6>
+                            <h1 class="fw-bold"><span class="fw-light">TK</span> <span id="desplay-withdrow">00</span> </h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="statistics-card balance-card bg-primary bg-gradient text-white rounded mb-3">
+                            <h6 class="fw-light text-uppercase">Balance</h6>
+                            <h1 class="fw-bold"><span class="fw-light">TK</span> <span id="desplay-balance">00</span> </h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </main>
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS Link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+/* Display Statistics */
+
+.display-statistics {}
+
+.statistics-card {
+    padding: 20px 30px;
+}
+
+.statistics-card h1 {
+    font-size: 45px;
+}
+
+.statistics-card h6 {
+    letter-spacing: 1.5px;
+}
